@@ -1,0 +1,339 @@
+@import '~normalize.css';
+@import '~bootstrap/scss/bootstrap-grid';
+
+
+@font-face {
+  font-family: 'Raleway ExtraBold';
+  src: url('./../fonts/Raleway-ExtraBold.ttf') format('truetype');
+  font-weight: 900;
+  font-style: bolder;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway Medium';
+  src: url('./../fonts/Raleway-Medium.ttf') format('truetype');
+  font-style: medium;
+}
+
+$mainColor: #2c2e37;
+$mainButtonColor: #f84444;
+$fontColor: #949494;
+
+$openSans: 'Open Sans';
+$relewayBold: 'Raleway ExtraBold';
+$relawayMedium: 'Raleway Medium';
+
+
+
+.main-color{
+  background: $mainColor;
+}
+.orange{
+  background: $mainButtonColor;
+  transition: .2s ease-in-out;
+  &:hover{
+    background: #fff;
+    color: #ff2939;
+    box-shadow: 0px 0px 7px -1px #cecece;
+  }
+}
+@import 'additions/header';
+@import 'additions/footer';
+
+.light-gray{
+  background: #fafafa;
+}
+.img-fluid{
+  width: 100%;
+  height: auto;
+}
+.responsive{
+  width: 100%;
+  height: auto;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-block{
+  height: 400px;
+  background: url("../images/topImg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.arrow-down {
+  display: none;
+}
+.vertical-line{
+  position: absolute;
+  height: 100px;
+  top: -50px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 1px;
+  background: $fontColor;
+}
+.custom-button{
+  padding: 10px 15px;
+  border: none;
+  font-family: $relewayBold;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+.headline{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: $mainColor;
+  font-family: $relewayBold;
+}
+
+.zigzag {
+  width: 91px;
+  margin: 42px auto 29px;
+  background: #fff;
+  position: relative;
+  height: 16px;
+  z-index: 1;
+}
+.zigzag:before, .zigzag:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.zigzag:before {
+  height: 12px;
+  top: 0%;
+  background: linear-gradient(-135deg, #d1d1d1 8px, transparent 0) 0 8px, linear-gradient(135deg, #d1d1d1 8px, transparent 0) 0 8px;
+  background-position: top left;
+  background-repeat: repeat-x;
+  background-size: 13px 11px;
+}
+.zigzag:after {
+  height: 16px;
+  top: -10%;
+  background: linear-gradient(-135deg, #ffffff 8px, transparent 0) 0 8px, linear-gradient(135deg, #ffffff 8px, transparent 0) 0 8px;
+  background-position: top left;
+  background-repeat: repeat-x;
+  background-size: 13px 11px;
+}
+.about-us-container{
+  margin: 40px auto;
+}
+.about-us{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 40px;
+  .headline{
+    display: block;
+    padding-bottom: 20px;
+  }
+}
+.w130{
+  min-width: 130px;
+}
+.bg-img{
+  height: 250px;
+  background-position: center !important;
+  background-size: cover !important;
+  margin: 0;
+}
+.text-content{
+  font-family: $openSans;
+  color: $fontColor;
+  font-size: 14px;
+  margin: 0;
+}
+.line-bottom{
+  border-bottom: 1px solid #f3f3f3;
+}
+.about-us-text{
+  padding: 60px 38px 90px;
+  div:first-child{
+    padding-bottom: 70px;
+  }
+}
+.white-button{
+  border: 1px solid #e6e6e6;
+  color: $fontColor;
+  background: transparent;
+  box-sizing: border-box;
+}
+.button-container{
+  padding-top: 50px;
+  button:first-child{
+    margin-right: 20px;
+  }
+}
+.latest-project{
+  position: relative;
+  padding: 90px 40px;
+  .headline{
+    color: #ffffff;
+  }
+  .text-content{
+    padding: 20px 0 25px;
+    text-align: center;
+  }
+  .button-container{
+    padding: 0;
+  }
+}
+.our-journal {
+  padding-bottom: 60px;
+  [data-src-bg]{
+    height: 250px;
+  }
+  .text-content{
+    padding: 20px 38px 30px;
+  }
+  .zigzag{
+    margin-top: 60px;
+    background: #fafafa;
+  }
+  .zigzag:after {
+    height: 16px;
+    top: -10%;
+    background: linear-gradient(-135deg, #fafafa 8px, transparent 0) 0 8px, linear-gradient(135deg, #fafafa 8px, transparent 0) 0 8px;
+    background-position: top left;
+    background-repeat: repeat-x;
+    background-size: 13px 11px;
+  }
+}
+.our-team{
+  padding-bottom: 60px;
+}
+.team-item{
+  padding-top: 60px;
+  .name{
+    font-family: $relewayBold;
+    color: $mainColor;
+    font-size: 15px;
+    padding-top: 40px;
+  }
+  .position{
+    font-family: $relawayMedium;
+    color: $mainColor;
+    font-size: 15px;
+    padding-top: 15px;
+    text-transform: uppercase;
+  }
+  .short-line{
+    width: 30px;
+    height: 2px;
+    background: $fontColor;
+    margin-top: 30px;
+    transition: .5s ease-in-out;
+  }
+  .text-content{
+    padding-top: 30px;
+  }
+  .social-links{
+    padding-top: 35px;
+  }
+  &:hover .short-line{
+    width: 100px;
+    background: $mainButtonColor;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+  .top-block{
+    height: 770px;
+  }
+  .arrow-down{
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+  .bg-img{
+    margin: 20px 0;
+  }
+  .zigzag {
+    margin: 79px auto 40px;
+  }
+  .about-us-container{
+    margin: 120px auto;
+    .line-bottom{
+      border: none;
+    }
+  }
+  .about-us-text{
+    padding-top: 0;
+    padding-bottom: 120px;
+  }
+  .latest-project {
+    padding: 120px 40px;
+  }
+  .our-journal{
+    .bg-img{
+      margin-top: 0;
+      margin-bottom: 0;
+      height: 540px;
+    }
+  }
+  .our-journal {
+    .headline{
+      text-align: left;
+    }
+    .text-content{
+      padding-left: 0;
+    }
+    .center{
+      align-items: flex-start;
+    }
+    .zigzag{
+      margin-left: 0;
+    }
+    .zigzag:after {
+      height: 16px;
+      top: -10%;
+      background: linear-gradient(-135deg, #fafafa 8px, transparent 0) 0 8px, linear-gradient(135deg, #fafafa 8px, transparent 0) 0 8px;
+      background-position: top left;
+      background-repeat: repeat-x;
+      background-size: 13px 11px;
+    }
+  }
+  .our-journal {
+    padding-bottom: 0;
+  }
+  .our-team{
+    .team-headline{
+      padding-bottom: 50px;
+    }
+  }
+  .team-item {
+    padding-top: 70px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .top-block{
+    height: 900px;
+  }
+}
