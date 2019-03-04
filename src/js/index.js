@@ -10,9 +10,3 @@ window.addEventListener('load', function () {
         item.setAttribute('src', src);
     })
 })
-
-if (document.querySelector('.hamburger')){
-    document.querySelector('.hamburger').addEventListener('click', function() {
-        this.classList.toggle('active')
-    })
-}
