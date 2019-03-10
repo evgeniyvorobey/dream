@@ -24,13 +24,30 @@
 $mainColor: #2c2e37;
 $mainButtonColor: #f84444;
 $fontColor: #949494;
+$gray: #7c7e88;
+$footerForm: #42434b;
 
 $openSans: 'Open Sans';
 $relewayBold: 'Raleway ExtraBold';
 $relawayMedium: 'Raleway Medium';
 
 
-
+.fill-white{
+  fill: #fff;
+}
+.fill-gray{
+  fill: $gray;
+}
+.fill-liteGray{
+  fill:#999999
+}
+.fill-darkGray{
+  fill: $footerForm;
+}
+.icon{
+  width: 17px;
+  height: 17px;
+}
 .main-color{
   background: $mainColor;
 }
@@ -70,14 +87,18 @@ $relawayMedium: 'Raleway Medium';
 }
 .arrow-down {
   display: none;
+  object{
+    width: 11px;
+    height: 11px;
+  }
 }
 .vertical-line{
   position: absolute;
   height: 100px;
-  top: -50px;
+  top: 0;
   left: 50%;
-  transform: translate(-50%);
   width: 1px;
+  transform: translateY(-50%);
   background: $fontColor;
 }
 .custom-button{
@@ -165,11 +186,17 @@ $relawayMedium: 'Raleway Medium';
     padding-bottom: 70px;
   }
 }
-.white-button{
+.button-outline{
   border: 1px solid #e6e6e6;
   color: $fontColor;
   background: transparent;
   box-sizing: border-box;
+  transition: .2s ease-in-out;
+  &:hover{
+    color: #fff;
+    background: $fontColor;
+    box-shadow: 0 0 7px -1px #cecece;
+  }
 }
 .button-container{
   padding-top: 50px;
@@ -235,6 +262,7 @@ $relawayMedium: 'Raleway Medium';
     height: 2px;
     background: $fontColor;
     margin-top: 30px;
+    transform-origin: left;
     transition: .5s ease-in-out;
   }
   .text-content{
@@ -244,11 +272,10 @@ $relawayMedium: 'Raleway Medium';
     padding-top: 35px;
   }
   &:hover .short-line{
-    width: 100px;
+    transform: scaleX(2.5);
     background: $mainButtonColor;
   }
 }
-
 
 
 
