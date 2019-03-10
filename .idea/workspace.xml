@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfaa4cf8-b6d2-41ea-a8fb-ab50590d30e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/twitter.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/facebook-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/logo-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/twitter-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/includes/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/facebook-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/topImg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/topImg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/twitter-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/additions/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/additions/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/additions/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/additions/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/html/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="51" selection-start-line="51" selection-end-line="52" />
+            <state relative-caret-position="113">
+              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
               </folding>
@@ -244,12 +213,12 @@
       <updated>1551665044711</updated>
       <workItem from="1551665048458" duration="1609000" />
       <workItem from="1552222661891" duration="12701000" />
-      <workItem from="1552252487747" duration="1483000" />
+      <workItem from="1552252487747" duration="1932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15793000" />
+    <option name="totallyTimeSpent" value="16242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1124" height="980" extended-state="0" />
@@ -349,8 +318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="51" selection-start-line="51" selection-end-line="52" />
+        <state relative-caret-position="113">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
           </folding>
